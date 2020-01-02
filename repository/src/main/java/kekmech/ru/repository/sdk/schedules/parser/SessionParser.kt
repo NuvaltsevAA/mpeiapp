@@ -1,4 +1,4 @@
-package kekmech.ru.repository.utils
+package kekmech.ru.repository.sdk.schedules.parser
 
 import android.util.Log
 import kekmech.ru.core.dto.AcademicSession

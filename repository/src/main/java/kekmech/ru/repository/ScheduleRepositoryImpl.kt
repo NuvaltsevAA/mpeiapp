@@ -6,7 +6,7 @@ import kekmech.ru.core.dto.*
 import kekmech.ru.core.gateways.ScheduleCacheGateway
 import kekmech.ru.core.repositories.ScheduleRepository
 import kekmech.ru.repository.room.AppDatabase
-import kekmech.ru.repository.utils.SessionParser
+import kekmech.ru.repository.sdk.schedules.parser.SessionParser
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

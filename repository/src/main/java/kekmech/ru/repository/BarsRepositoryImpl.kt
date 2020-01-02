@@ -1,7 +1,6 @@
 package kekmech.ru.repository
 
 import android.content.Context
-import android.util.Log
 import com.crashlytics.android.Crashlytics
 import com.google.gson.GsonBuilder
 import kekmech.ru.core.dto.AcademicDiscipline
@@ -9,8 +8,7 @@ import kekmech.ru.core.dto.AcademicScore
 import kekmech.ru.core.repositories.BarsRepository
 import kekmech.ru.core.repositories.BarsRepository.Companion.BARS_URL
 import kekmech.ru.repository.auth.BaseKeyStore
-import kekmech.ru.repository.utils.BarsParser
-import kotlinx.coroutines.GlobalScope
+import kekmech.ru.repository.sdk.bars.parser.BarsParser
 import org.jsoup.Jsoup
 
 class BarsRepositoryImpl constructor(

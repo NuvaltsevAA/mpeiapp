@@ -1,4 +1,4 @@
-package kekmech.ru.repository.utils
+package kekmech.ru.repository.sdk.bars.parser
 
 import com.crashlytics.android.Crashlytics
 import kekmech.ru.core.dto.AcademicDiscipline
